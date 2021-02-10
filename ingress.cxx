@@ -4,7 +4,6 @@ public:
 private:
 	char rarity;
 	
-
 };
 
 class resonator{
@@ -83,14 +82,15 @@ class portal{
 public:
 	portal(arguments);
 	~portal();
-
+	int portal_fraction; //res,enl,neutral
 	/* data */
 private:
 	int portal_id;
 	double x_coor;
 	double y_coor;
 	char portal_name;
-	int portal_fraction; //res,enl,neutral
+	int mod_slots=4;
+
 };
 
 
