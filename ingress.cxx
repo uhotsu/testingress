@@ -42,9 +42,9 @@ private:
 class xmp{
 public:
 	xmp(); //obtained an xmp
-	fire(int xmp_id);
-	recycle(int xmp_id);
-	status(int xmp_id);
+	fire(int xmp_id); //use and destory from inventory
+	recycle(int xmp_id); //change to xm and destory from inventoy
+	status(int xmp_id); 
 	~xmp();
 
 private:
