@@ -85,6 +85,12 @@ public:
 	~portal();
 
 	/* data */
+private:
+	int portal_id;
+	double x_coor;
+	double y_coor;
+	char portal_name;
+	int portal_fraction; //res,enl,neutral
 };
 
 
